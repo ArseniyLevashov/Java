@@ -1,0 +1,41 @@
+package com.company;
+
+import java.util.Scanner;
+
+interface Converter {
+    double convert(double Value);
+}
+class Celsius implements Converter{
+    @Override
+    public double convert(double Value){
+        return Value;
+    }
+}
+class Faringate implements Converter{
+    @Override
+    public double convert(double Value){
+        return 1.8 * Value + 32;
+    }
+}
+
+class Kalvin implements Converter{
+    @Override
+    public double convert(double Value){
+        return Value + 273.15;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("введите температуру в градусах цельсия = ");
+        Scanner in = new Scanner(System.in);
+        double temperature = 0;
+        temperature = in.nextDouble();
+        System.out.println("температура в градусах цельсия = " +
+                new Celsius().convert(temperature));
+        System.out.println("температура по шкале Фаренгейта = " +
+                new Faringate().convert(temperature));
+        System.out.println("температура по шкале Кельвина = " +
+                new Kalvin().convert(temperature));
+    }
+}
