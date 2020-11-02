@@ -7,4 +7,5 @@ What's here:
 temperature converter built using interfaces
 
 2.scan-comment:
-enter the file address into the console and it will cut out from there all comments that start with "//" or "/*"
+enter the file address into the console and it will cutout from
+there all comments that start with "//" or "/*"
