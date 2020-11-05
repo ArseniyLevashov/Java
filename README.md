@@ -9,3 +9,7 @@ temperature converter built using interfaces
 2.scan-comment:
 enter the file address into the console and it will cutout from
 there all comments that start with "//" or "/*"
+
+3.collections:
+a small implementation of a black list for comments.
+if a forbidden word is encountered, then this comment will be blocked
