@@ -13,3 +13,7 @@ there all comments that start with "//" or "/*"
 3.collections:
 a small implementation of a black list for comments.
 if a forbidden word is encountered, then this comment will be blocked
+
+4.web2:
+A small web application that adds users to the list using servlets.
+Made for educational purposes, in order to learn how to create and use servlets in practice
