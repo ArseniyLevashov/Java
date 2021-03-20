@@ -8,9 +8,9 @@ What's here:
 1. temp-convertor: 
 temperature converter built using interfaces
 
-2.scan-comment:
+2.fileReader:
 enter the file address into the console and it will cutout from
-there all comments that start with "//" or "/*"
+there all comments that start with "//"
 
 3.collections:
 a small implementation of a black list for comments.
