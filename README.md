@@ -22,3 +22,6 @@ Made for educational purposes, in order to learn how to create and use servlets 
 
 5.sp
 A small project made with spring mvc and its ability to inject dependencies into a project
+
+6.spr
+Spring MVC aplication
